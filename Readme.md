@@ -29,3 +29,13 @@
 7. 修改提交历史中的作者邮箱信息
 
    > git rebase -i HEAD~2  (进入最新2次提交的历史信息中)
+
+8. git分支
+
+   > git branch (查看分支)
+   >
+   > git checkout -b iss5 (创建新分支并切换到iss5分支)
+   >
+   > git branch iss5 (创建iss5的新分支)
+   >
+   > git checkout iss5 (切换到iss5的分支)
